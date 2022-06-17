@@ -1,0 +1,57 @@
+:root{
+    --color-1: rgb(29, 53, 97);
+}
+body{
+    height: 100vh;
+    background-color: rgb(9, 16, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    margin: auto;
+    background-color: var(--color-1);
+    border-radius: 15px;
+    box-shadow: 15px 15px 5px 5px rgba(0, 0, 0, 0.699);
+}
+.container_pantalla{
+    width: 80%;
+    height: 100px;
+    background-color: #333;
+    margin: 20px auto;
+    border: 5px solid rgb(3, 17, 44);
+    box-shadow: 0px 0px 1px 5px black;
+    border-radius: 15px;
+    color: white;
+}
+.container_pantalla p{
+    height: 25px;
+    font-size: 25px;
+    margin: 15px 10px 10px;
+    text-align: end;
+}
+.container__buttons{
+    width: 85%;
+    height: 250px;
+    margin: 20px auto 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8px;
+}
+.container__buttons button{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.842);
+    background-color: var(--color-1);
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.container__buttons button:hover{
+    background-color: rgb(181, 189, 204);
+    color: var(--color-1);
+}
+.col-2{
+    grid-column: span 2;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLES - CSS {} --> 
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container_pantalla">
+            <p id="segundoValor"></p>
+            <p id="primerValor"></p>
+        </div>
+        <div class="container__buttons">
+            <button id="borrarTodo" class="col-2">C</button>
+            <button id="buttonBorrar">←</button>
+            <button class="buttonOperador" value="division">%</button>
+
+            <button class="buttonNumber">7</button>
+            <button class="buttonNumber">8</button>
+            <button class="buttonNumber">9</button>
+            <button class="buttonOperador" value="multiplicacion">X</button>
+
+            <button class="buttonNumber">4</button>
+            <button class="buttonNumber">5</button>
+            <button class="buttonNumber">6</button>
+            <button class="buttonOperador" value="resta">-</button>
+
+            <button class="buttonNumber">1</button>
+            <button class="buttonNumber">2</button>
+            <button class="buttonNumber">3</button>
+            <button class="buttonOperador" value="suma">+</button>
+
+            <button class="col-2 buttonNumber">0</button>
+            <button class="buttonNumber">.</button>
+            <button id="igual">=</button>
+        </div>
+    </div>
+    <script src="js/operaciones.js"></script>
+    <script src="js/Calculadora.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
