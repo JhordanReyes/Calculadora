@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- STYLES - CSS {} --> 
+    <!-- STYLES - CSS || {} --> 
     <link rel="stylesheet" href="styles.css">
+    <!-- IMPORT boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>Calculadora</title>
 </head>
 <body>
@@ -15,6 +17,11 @@
             <p id="primerValor"></p>
         </div>
         <div class="container__buttons">
+            <button class="buttonOperador" value="raiz">√x</button>
+            <button class="buttonOperador" value="potenciaAuto">x<sup>2</sup></button>
+            <button class="buttonOperador" value="potencia">x<sup><i class='bx bx-checkbox'></i></sup></button>
+            <button class="buttonOperador" value="PI">π</button>
+
             <button id="borrarTodo" class="col-2">C</button>
             <button id="buttonBorrar">←</button>
             <button class="buttonOperador" value="division">%</button>
